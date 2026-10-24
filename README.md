@@ -1,10 +1,12 @@
 # ScanClass AI
 
+**Live app:** https://your-app.onrender.com
+
 **Scan once. Your whole class is sorted.** ScanClass turns a blurry class-routine photo into a personal timetable, a live free-room finder, reminders and CR announcements, for university students and their CRs. Powered by **Gemma 4**.
 
 ## The problem
 
-At IIUC (and most universities in Bangladesh), class routines, room changes and notices are shared as **photos in Facebook and Messenger groups** or pinned on notice boards.
+At IIUC (and most universities in Bangladesh), class routines, room changes and notices are shared as **photos in Facebook , messages through Whatsapp groups and Messenger groups** or pinned on notice boards.
 
 - Students screenshot the routine and zoom in every day to find their section's class and room.
 - When a room or time changes, a new photo is posted and many students miss it.
@@ -118,3 +120,15 @@ _Add 2–3 screenshots here (Home, Free Rooms, CR notice) or a short video link.
 ## License
 
 MIT, see [LICENSE](LICENSE).
+
+## My role
+
+I built ScanClass AI solo during the hackathon.
+
+- **Idea and problem:** Chose a real IIUC problem — routines, room changes and notices scattered as photos in Facebook groups — and designed ScanClass around students, CRs and teachers.
+- **Product design:** Decided every feature and how it works: scanning routines with Gemma 4, the campus-wide free-room finder for buildings C and Cx, CR announcements with phone notifications, exam syllabus, teacher mode (course + section), admin-issued CR PINs, and Bangla/English voice.
+- **AI integration:** Set up Gemma 4 through Ollama (local `gemma4:31b-cloud`, hosted `gemma4:31b`) and designed the approach where Gemma reads images and understands questions, while code calculates free rooms, schedules and changes so answers are never made up.
+- **Building with an AI assistant:** Used Claude (Anthropic) to help write the code. I directed each feature, reviewed and tested the results, and asked for fixes and changes until it worked the way I wanted.
+- **Testing:** Tested the full flow on laptop and phone — scanning routine photos/PDFs, free rooms, CR notices, notifications, syllabus, teacher mode and the admin page — and fixed issues I found (e.g. permissions, PDF security update, empty-state bugs).
+- **Deployment:** Deployed on Render with a Postgres database, configured environment variables and secrets, push notifications and the uptime ping.
+- **Design:** Chose the dark-purple, mobile-first look and kept the app simple to use.
