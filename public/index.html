@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0712">
+  <title>ScanClass AI</title>
+  <meta name="description" content="Scan once. Your whole class is sorted. Timetable, free rooms, reminders and CR announcements, powered by Gemma 4.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="ScanClass">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%237c3aed'/><stop offset='1' stop-color='%23c084fc'/></linearGradient></defs><rect width='32' height='32' rx='9' fill='url(%23g)'/><path d='M9 12V9h3M20 9h3v3M23 20v3h-3M12 23H9v-3M11 16h10' stroke='white' stroke-width='2.4' fill='none' stroke-linecap='round'/></svg>">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></symbol>
+  <symbol id="i-door" viewBox="0 0 24 24"><path d="M5 21V4a1 1 0 0 1 1-1h9l4 2v16M3 21h18M14 12h.01"/></symbol>
+  <symbol id="i-scan" viewBox="0 0 24 24"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3M7 12h10"/></symbol>
+  <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 1 1 12 0v5l2 2H4zM10 20a2 2 0 0 0 4 0"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></symbol>
+  <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></symbol>
+  <symbol id="i-speaker" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9zM16.5 8.5a5 5 0 0 1 0 7"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 5v16M8 7h7M8 11h5"/></symbol>
+  <symbol id="i-logout" viewBox="0 0 24 24"><path d="M15 4h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4M10 17l-5-5 5-5M5 12h11"/></symbol>
+</svg>
+
+<div class="app">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="#home">
+      <span class="brand-mark"><svg><use href="#i-scan"/></svg></span>
+      <span class="brand-name">ScanClass <b>AI</b></span>
+    </a>
+    <a class="nav-link" href="#home" data-route="home"><svg><use href="#i-home"/></svg><span>Home</span></a>
+    <a class="nav-link" href="#rooms" data-route="rooms"><svg><use href="#i-door"/></svg><span>Free Rooms</span></a>
+    <a class="nav-link" href="#scan" data-route="scan"><svg><use href="#i-scan"/></svg><span>Scan</span></a>
+    <a class="nav-link" href="#syllabus" data-route="syllabus"><svg><use href="#i-book"/></svg><span>Syllabus</span></a>
+    <a class="nav-link" href="#notices" data-route="notices"><svg><use href="#i-bell"/></svg><span>Notices</span><i class="badge" id="noticeBadge" hidden></i></a>
+    <a class="nav-link" href="#ask" data-route="ask"><svg><use href="#i-chat"/></svg><span>Ask</span></a>
+    <div class="nav-status" id="modelStatus"><span class="dot"></span><span class="txt">Checking AI…</span></div>
+  </nav>
+
+  <main class="main">
+    <div class="topbar">
+      <a class="brand-mobile" href="#home"><span class="brand-mark sm"><svg><use href="#i-scan"/></svg></span>ScanClass <b>AI</b></a>
+      <div class="topbar-right">
+        <div class="lang-toggle" role="group" aria-label="Language" id="langToggle">
+          <button data-lang="en">EN</button><button data-lang="bn">বাং</button>
+        </div>
+        <button class="profile-chip" id="profileBtn" aria-label="My section"><svg><use href="#i-user"/></svg><span id="profileLabel">Set up</span></button>
+      </div>
+    </div>
+
+    <!-- HOME -->
+    <section class="view" id="view-home">
+      <div id="homeBody"></div>
+    </section>
+
+    <!-- FREE ROOMS -->
+    <section class="view" id="view-rooms" hidden>
+      <header class="page-head">
+        <h2>Free Rooms</h2>
+        <p>Calculated from every uploaded routine, plus CR updates for today.</p>
+      </header>
+      <div class="card filters">
+        <div class="when">
+          <button class="pill-btn active" id="nowBtn"><span class="live-dot"></span> Right now</button>
+          <select id="fDay" aria-label="Day"></select>
+          <input type="time" id="fTime" aria-label="Time" step="300">
+        </div>
+        <div class="chip-row" id="fBuilding"></div>
+        <div class="chip-row">
+          <select id="fFloor" aria-label="Floor"><option value="">All floors</option></select>
+          <label class="check-row inline"><input type="checkbox" id="fHour"> Free 1+ hour</label>
+        </div>
+      </div>
+      <div class="room-summary" id="roomSummary"></div>
+      <div class="room-grid" id="roomGrid"></div>
+      <div class="coverage" id="coverage"></div>
+    </section>
+
+    <!-- SCAN -->
+    <section class="view" id="view-scan" hidden>
+      <header class="page-head">
+        <h2>Scan a Routine</h2>
+        <p>Take a photo of the class routine. Gemma 4 reads it into a table. The CR checks it and shares it with the whole class.</p>
+      </header>
+      <div class="scan-layout">
+        <div class="card">
+          <label class="dropzone" id="scanDrop">
+            <input type="file" id="scanFile" accept="image/jpeg,image/png,image/webp,application/pdf" hidden>
+            <div class="dz-empty">
+              <span class="dz-icon"><svg><use href="#i-upload"/></svg></span>
+              <b>Tap to take a photo or upload</b>
+              <small>Photo or PDF · JPG, PNG, WebP or PDF</small>
+            </div>
+            <img class="dz-preview" alt="Routine preview" hidden>
+          </label>
+          <div id="scanDriveBox"></div>
+          <button class="btn btn-primary btn-block" id="scanBtn" disabled><svg><use href="#i-spark"/></svg> Read with Gemma 4</button>
+          <a class="hint link" href="sample/routine-cse-2bm.png" target="_blank" rel="noopener">No routine photo? Open a sample routine</a>
+        </div>
+        <div class="card">
+          <div class="card-head"><h3>Classes found</h3><button class="btn btn-ghost btn-sm" id="addRow" hidden><svg><use href="#i-plus"/></svg> Row</button></div>
+          <div id="scanResult"><div class="empty"><svg><use href="#i-scan"/></svg><p>The routine table will appear here.</p></div></div>
+          <div id="scanActions"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SYLLABUS -->
+    <section class="view" id="view-syllabus" hidden>
+      <header class="page-head">
+        <h2>Exam Syllabus</h2>
+        <p id="syllabusSub">Mid-term and final syllabus for each course, shared by your CR.</p>
+      </header>
+      <div class="exam-switch" role="group" aria-label="Exam">
+        <button class="chip active" data-exam="mid">Mid-term</button>
+        <button class="chip" data-exam="final">Final</button>
+      </div>
+      <div id="syllabusCR"></div>
+      <div id="syllabusList"></div>
+    </section>
+
+    <!-- ADMIN (not in the menu: opened from the profile window) -->
+    <section class="view" id="view-admin" hidden>
+      <header class="page-head with-action">
+        <div>
+          <h2>Admin · CR PINs</h2>
+          <p>Give each section's CR a private PIN. Share it with the CR only.</p>
+        </div>
+        <button class="btn btn-ghost" id="adminLogout" hidden><svg><use href="#i-logout"/></svg> Log out</button>
+      </header>
+      <div id="adminBody"></div>
+    </section>
+
+    <!-- NOTICES -->
+    <section class="view" id="view-notices" hidden>
+      <header class="page-head with-action">
+        <div>
+          <h2>Notices</h2>
+          <p id="noticeSub">Announcements from your CR.</p>
+        </div>
+        <button class="btn btn-ghost" id="notifyBtn"><svg><use href="#i-bell"/></svg> Turn on notifications</button>
+      </header>
+      <div id="crPanel"></div>
+      <div id="noticeList"></div>
+    </section>
+
+    <!-- ASK -->
+    <section class="view" id="view-ask" hidden>
+      <header class="page-head">
+        <h2>Ask ScanClass</h2>
+        <p>Type or speak in বাংলা or English. Gemma understands, and the answer comes from the real routine.</p>
+      </header>
+      <div class="chat-shell card">
+        <div class="chat-thread" id="chatThread" aria-live="polite">
+          <div class="chat-welcome">
+            <span class="ai-avatar"><svg><use href="#i-spark"/></svg></span>
+            <h3>What do you want to know?</h3>
+            <p>Free rooms, your next class, today's routine, notices…</p>
+          </div>
+        </div>
+        <div class="chips" id="chips"></div>
+        <form class="chat-input" id="chatForm">
+          <button class="btn btn-ghost btn-icon" type="button" id="micBtn" aria-label="Speak" hidden><svg><use href="#i-mic"/></svg></button>
+          <input id="chatQ" placeholder="e.g. এখন কোন রুম খালি?" autocomplete="off" maxlength="400">
+          <button class="btn btn-primary btn-icon" type="submit" aria-label="Send"><svg><use href="#i-send"/></svg></button>
+        </form>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- Modal (setup, profile, room day, CR login) -->
+<div class="modal" id="modal" hidden>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-x" id="modalClose" aria-label="Close"><svg><use href="#i-x"/></svg></button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="js/core.js"></script>
+<script src="js/voice.js"></script>
+<script src="js/profile.js"></script>
+<script src="js/home.js"></script>
+<script src="js/rooms.js"></script>
+<script src="js/scan.js"></script>
+<script src="js/notices.js"></script>
+<script src="js/syllabus.js"></script>
+<script src="js/admin.js"></script>
+<script src="js/ask.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

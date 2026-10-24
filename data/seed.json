@@ -1,0 +1,1491 @@
+{
+ "term": "Autumn 2026",
+ "days": [
+  "Sat",
+  "Sun",
+  "Mon",
+  "Tue",
+  "Wed",
+  "Thu"
+ ],
+ "rooms": [
+  {
+   "id": "C-101",
+   "building": "C",
+   "floor": 1,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-102",
+   "building": "C",
+   "floor": 1,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-103",
+   "building": "C",
+   "floor": 1,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-104",
+   "building": "C",
+   "floor": 1,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-105",
+   "building": "C",
+   "floor": 1,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-201",
+   "building": "C",
+   "floor": 2,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-202",
+   "building": "C",
+   "floor": 2,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-203",
+   "building": "C",
+   "floor": 2,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-204",
+   "building": "C",
+   "floor": 2,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-205",
+   "building": "C",
+   "floor": 2,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-301",
+   "building": "C",
+   "floor": 3,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-302",
+   "building": "C",
+   "floor": 3,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-303",
+   "building": "C",
+   "floor": 3,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-304",
+   "building": "C",
+   "floor": 3,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-305",
+   "building": "C",
+   "floor": 3,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-401",
+   "building": "C",
+   "floor": 4,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-402",
+   "building": "C",
+   "floor": 4,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-403",
+   "building": "C",
+   "floor": 4,
+   "type": "Classroom"
+  },
+  {
+   "id": "C-404",
+   "building": "C",
+   "floor": 4,
+   "type": "Lab"
+  },
+  {
+   "id": "C-405",
+   "building": "C",
+   "floor": 4,
+   "type": "Lab"
+  },
+  {
+   "id": "Cx-101",
+   "building": "Cx",
+   "floor": 1,
+   "type": "Classroom"
+  },
+  {
+   "id": "Cx-102",
+   "building": "Cx",
+   "floor": 1,
+   "type": "Classroom"
+  },
+  {
+   "id": "Cx-103",
+   "building": "Cx",
+   "floor": 1,
+   "type": "Classroom"
+  },
+  {
+   "id": "Cx-104",
+   "building": "Cx",
+   "floor": 1,
+   "type": "Classroom"
+  },
+  {
+   "id": "Cx-201",
+   "building": "Cx",
+   "floor": 2,
+   "type": "Classroom"
+  },
+  {
+   "id": "Cx-202",
+   "building": "Cx",
+   "floor": 2,
+   "type": "Classroom"
+  },
+  {
+   "id": "Cx-203",
+   "building": "Cx",
+   "floor": 2,
+   "type": "Classroom"
+  },
+  {
+   "id": "Cx-204",
+   "building": "Cx",
+   "floor": 2,
+   "type": "Lab"
+  },
+  {
+   "id": "Cx-301",
+   "building": "Cx",
+   "floor": 3,
+   "type": "Classroom"
+  },
+  {
+   "id": "Cx-302",
+   "building": "Cx",
+   "floor": 3,
+   "type": "Classroom"
+  },
+  {
+   "id": "Cx-303",
+   "building": "Cx",
+   "floor": 3,
+   "type": "Classroom"
+  },
+  {
+   "id": "Cx-304",
+   "building": "Cx",
+   "floor": 3,
+   "type": "Classroom"
+  }
+ ],
+ "sections": [
+  {
+   "dept": "CSE",
+   "semester": "1",
+   "section": "1AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "1",
+   "section": "1BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "1",
+   "section": "1CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "1",
+   "section": "1AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "1",
+   "section": "1BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "2",
+   "section": "2AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "2",
+   "section": "2BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "2",
+   "section": "2CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "2",
+   "section": "2AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "2",
+   "section": "2BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "3",
+   "section": "3AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "3",
+   "section": "3BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "3",
+   "section": "3CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "3",
+   "section": "3AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "3",
+   "section": "3BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "4",
+   "section": "4AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "4",
+   "section": "4BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "4",
+   "section": "4CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "4",
+   "section": "4AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "4",
+   "section": "4BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "5",
+   "section": "5AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "5",
+   "section": "5BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "5",
+   "section": "5CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "5",
+   "section": "5AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "5",
+   "section": "5BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "6",
+   "section": "6AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "6",
+   "section": "6BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "6",
+   "section": "6CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "6",
+   "section": "6AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "6",
+   "section": "6BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "7",
+   "section": "7AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "7",
+   "section": "7BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "7",
+   "section": "7CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "7",
+   "section": "7AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "7",
+   "section": "7BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "8",
+   "section": "8AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "8",
+   "section": "8BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "8",
+   "section": "8CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "8",
+   "section": "8AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CSE",
+   "semester": "8",
+   "section": "8BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "1",
+   "section": "1AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "1",
+   "section": "1BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "1",
+   "section": "1CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "1",
+   "section": "1AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "1",
+   "section": "1BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "2",
+   "section": "2AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "2",
+   "section": "2BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "2",
+   "section": "2CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "2",
+   "section": "2AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "2",
+   "section": "2BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "3",
+   "section": "3AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "3",
+   "section": "3BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "3",
+   "section": "3CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "3",
+   "section": "3AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "3",
+   "section": "3BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "4",
+   "section": "4AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "4",
+   "section": "4BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "4",
+   "section": "4CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "4",
+   "section": "4AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "4",
+   "section": "4BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "5",
+   "section": "5AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "5",
+   "section": "5BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "5",
+   "section": "5CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "5",
+   "section": "5AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "5",
+   "section": "5BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "6",
+   "section": "6AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "6",
+   "section": "6BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "6",
+   "section": "6CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "6",
+   "section": "6AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "6",
+   "section": "6BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "7",
+   "section": "7AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "7",
+   "section": "7BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "7",
+   "section": "7CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "7",
+   "section": "7AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "7",
+   "section": "7BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "8",
+   "section": "8AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "8",
+   "section": "8BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "8",
+   "section": "8CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "8",
+   "section": "8AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "EEE",
+   "semester": "8",
+   "section": "8BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "1",
+   "section": "1AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "1",
+   "section": "1BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "1",
+   "section": "1CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "1",
+   "section": "1AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "1",
+   "section": "1BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "2",
+   "section": "2AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "2",
+   "section": "2BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "2",
+   "section": "2CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "2",
+   "section": "2AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "2",
+   "section": "2BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "3",
+   "section": "3AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "3",
+   "section": "3BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "3",
+   "section": "3CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "3",
+   "section": "3AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "3",
+   "section": "3BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "4",
+   "section": "4AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "4",
+   "section": "4BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "4",
+   "section": "4CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "4",
+   "section": "4AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "4",
+   "section": "4BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "5",
+   "section": "5AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "5",
+   "section": "5BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "5",
+   "section": "5CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "5",
+   "section": "5AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "5",
+   "section": "5BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "6",
+   "section": "6AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "6",
+   "section": "6BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "6",
+   "section": "6CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "6",
+   "section": "6AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "6",
+   "section": "6BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "7",
+   "section": "7AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "7",
+   "section": "7BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "7",
+   "section": "7CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "7",
+   "section": "7AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "7",
+   "section": "7BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "8",
+   "section": "8AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "8",
+   "section": "8BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "8",
+   "section": "8CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "8",
+   "section": "8AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "CCE",
+   "semester": "8",
+   "section": "8BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "1",
+   "section": "1AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "1",
+   "section": "1BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "1",
+   "section": "1CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "1",
+   "section": "1AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "1",
+   "section": "1BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "2",
+   "section": "2AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "2",
+   "section": "2BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "2",
+   "section": "2CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "2",
+   "section": "2AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "2",
+   "section": "2BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "3",
+   "section": "3AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "3",
+   "section": "3BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "3",
+   "section": "3CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "3",
+   "section": "3AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "3",
+   "section": "3BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "4",
+   "section": "4AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "4",
+   "section": "4BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "4",
+   "section": "4CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "4",
+   "section": "4AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "4",
+   "section": "4BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "5",
+   "section": "5AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "5",
+   "section": "5BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "5",
+   "section": "5CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "5",
+   "section": "5AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "5",
+   "section": "5BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "6",
+   "section": "6AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "6",
+   "section": "6BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "6",
+   "section": "6CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "6",
+   "section": "6AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "6",
+   "section": "6BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "7",
+   "section": "7AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "7",
+   "section": "7BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "7",
+   "section": "7CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "7",
+   "section": "7AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "7",
+   "section": "7BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "8",
+   "section": "8AM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "8",
+   "section": "8BM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "8",
+   "section": "8CM",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "8",
+   "section": "8AF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  },
+  {
+   "dept": "BBA",
+   "semester": "8",
+   "section": "8BF",
+   "crPinSalt": "cf50539d1278c7d2",
+   "crPinHash": "dedfaafab1de68213ebdc8c0e3b19e889f7709292cd1ffce02ce35dc9cb3ce52",
+   "crPinDemo": true
+  }
+ ],
+ "classes": [],
+ "announcements": [],
+ "overrides": [],
+ "syllabi": []
+}
